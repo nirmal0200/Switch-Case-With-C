@@ -45,7 +45,7 @@ int main()
 
 
         case 5:
-        printf("\nINvaild Choice!!!!");
+        printf("\nInvaild Choice!!!!");
         break;
 
     default :
@@ -54,6 +54,7 @@ int main()
     }
     return 0;
 }
+
 
 
 
