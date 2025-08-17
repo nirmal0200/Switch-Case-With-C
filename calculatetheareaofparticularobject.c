@@ -36,11 +36,24 @@ int main()
         printf("Area of Square =%f",side*side);
         break;
 
+
+        case 4:
+        printf("\nEnter the  base and height of the Triangle");
+        scanf("%f%f", &base, &height);
+        printf("Area of Triangle=%f",base*height);
+        break;
+
+
+        case 5:
+        printf("\nINvaild Choice!!!!");
+        break;
+
     default :
         printf("Invalid Input");
 
     }
     return 0;
 }
+
 
 
